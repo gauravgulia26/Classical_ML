@@ -99,6 +99,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "matplotlib" },
+    { name = "mlxtend" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "pydantic" },
@@ -120,6 +121,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.1" },
+    { name = "mlxtend", specifier = ">=0.25.0" },
     { name = "numpy", specifier = ">=2.5.2" },
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "pydantic", specifier = ">=2.13.5" },
@@ -553,6 +555,23 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
+]
+
+[[package]]
+name = "mlxtend"
+version = "0.25.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "joblib" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a5/c2/a257a9b3f2f989729c6c88d127be0d832cc6defbab564c97c1e410de4697/mlxtend-0.25.0.tar.gz", hash = "sha256:7fd52f1c55ea80036945490ea54c497aa2251ac03cf8e728cde12275d2169bcc", size = 1287049, upload-time = "2026-06-06T12:32:13.64Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/61/b8/bda63104fa9e3c4e88bd158b664d21b66667fbee3eb35f737dd329dc26a3/mlxtend-0.25.0-py3-none-any.whl", hash = "sha256:71b9500d9cb506642588995783d681a30c99a3b35abfbeb7b4e800d217fc12a5", size = 1355323, upload-time = "2026-06-06T12:32:12.083Z" },
 ]
 
 [[package]]
