@@ -10,13 +10,16 @@ requires-python = ">=3.14"
 dependencies = [
     "matplotlib>=3.11.1",
     "mlxtend>=0.25.0",
+    "nbformat>=5.11.1",
     "numpy>=2.5.2",
     "pandas>=3.0.5",
+    "plotly>=7.0.0",
     "pydantic>=2.13.5",
     "pydantic-settings>=2.15.0",
     "scikit-learn>=1.9.0",
     "scipy>=1.18.1",
     "seaborn>=0.13.2",
+    "sympy>=1.14.0",
 ]
 
 [project.scripts]
